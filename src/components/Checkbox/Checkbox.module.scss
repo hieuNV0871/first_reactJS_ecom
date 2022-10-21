@@ -1,0 +1,14 @@
+
+.custom-checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    &:hover {
+        color: var(--primary);
+        cursor: pointer;
+    }
+    input {
+        margin-right: 1rem;
+    }
+    
+}

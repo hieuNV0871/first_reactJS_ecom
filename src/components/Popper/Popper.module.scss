@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    box-shadow: rgb(0 0 0 /12%) 0px 2px 12px;
+    border-radius: 8px;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    animation: show 1s ease-in-out;
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}

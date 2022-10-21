@@ -1,0 +1,52 @@
+
+.wrapper {
+    width: 100%;
+    background-color: var(--white);
+    border-top: 1px solid rgb(0 0 0 / 12%);
+    font-size: 1.4rem;
+
+
+}
+
+.inner {
+    max-width: 1150px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 5rem;
+    margin: 0 auto;
+    padding: 5rem 2rem;
+}
+
+
+.switchboard-content, .about-links, .customer-care-links, .logo {
+    display: flex;
+    flex-flow: column;
+    gap: 1.5rem;
+
+    a:hover{
+        color: var(--primary);
+    }
+}
+
+.title {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    gap: 0;
+    img {
+        height: 30px;
+        width: 100px;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        word-break: break-all;
+        text-align: justify;
+    }
+
+}

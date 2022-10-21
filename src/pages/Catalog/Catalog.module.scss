@@ -1,0 +1,36 @@
+
+
+.catalog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.filter {
+    width: 20%;
+    margin-top: 5rem;
+}
+
+.widget {
+    margin-bottom: 2rem;
+
+    .widget-title {
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem;
+    }
+    .widget-content {
+
+        .item {
+            margin-bottom: 1rem;
+        }
+    }
+}
+.content {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    margin: 10rem 0;
+}
